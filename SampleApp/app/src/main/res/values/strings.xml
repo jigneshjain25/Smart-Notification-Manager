@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SNM</string>
+    <string name="FragmentExampleButtonLabel">Fragment example</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="NotificationsListenerButtonLabel">Read notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

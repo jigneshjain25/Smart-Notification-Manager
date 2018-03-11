@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.whitewalkers.smartnotificationsmanager.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+    <LinearLayout
+        android:background="@color/themeRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/HistoryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/history_icon_40"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:onClick="buttonClicked" />
+
+        <ImageButton
+            android:id="@+id/WhiteListButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/whitelist_icon_40"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:onClick="buttonClicked" />
+    </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/SettingsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/settings_icon_40"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:onClick="buttonClicked" />
+
+</RelativeLayout>>
+    <FrameLayout
+        android:id="@+id/FrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+    </FrameLayout>
+</LinearLayout>
